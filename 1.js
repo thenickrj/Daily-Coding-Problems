@@ -22,14 +22,6 @@ function list_num() {
       dict[ele] = k - ele;
     }
   }
-
-  //   for (let i = 0; i < list.length; i++) {
-  //     for (let j = i + 1; j < list.length; j++) {
-  //       if (list[i] + list[j] === k) {
-  //         return [list[i], list[j]];
-  //       }
-  //     }
-  //   }
 }
 
 console.log(list_num());
